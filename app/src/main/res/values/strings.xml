@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">BakingApp</string>
+
+    <string name="recipeImage">Image</string>
+    <string name="recipeId">1</string>
+    <string name="recipeName">Recipe Name</string>
+    <string name="servingsText">servings</string>
+    <string name="recipeServings">8</string>
+    <string name="recipeIngredients">Ingredients</string>
+    <string name="recipeSteps">Steps</string>
+
+    <string name="ingredients">Ingredients</string>
+
+    <string name="ingredientList">Ingredient List</string>
+
+    <string name="ingredientsQuantity">2</string>
+    <string name="ingredientsMeasure">"CUP"</string>
+    <string name="ingredientsIngredient">"Graham Cracker crumbs"</string>
+
+
+    <string name="widgetIngredientsQuantity">8</string>
+    <string name="widgetIngredientsMeasure">"OZ"</string>
+    <string name="widgetIngredientsIngredient">"Milk"</string>
+
+    <string name="widgetIngredientsQuantityMeasureIngredient">"8 OZ Milk"</string>
+
+    <string name="steps">Steps</string>
+
+    <string name="stepsId">1</string>
+    <string name="stepsShortDescription">"Starting prep"</string>
+    <string name="stepsDescription">"1. Preheat the oven to 350\u00b0F. Butter a 9\" deep dish pie pan."</string>
+    <string name="stepsVideoURL">""</string>
+    <string name="stepsThumbnailURL">""</string>
+
+    <string name="previousStep">"Recipe Introduction"</string>
+    <string name="nextStep">"Prep the cookie crust."</string>
+
+    <string name="media_url_mp4">https://d17h27t6h515a5.cloudfront.net/topher/2017/April/58ffdcf9_9-final-product-brownies/9-final-product-brownies.mp4</string>
+
+    <string name="add_widget">Add widget</string>
+
+    <!-- String for recipe added to widget. -->
+    <string name="recipe_added_to_widget">Recipe added to Widget</string>
+
+    <string name="widget_key">widget_key</string>
+
+    <!-- Heading for the app widget ID panel. -->
+    <string name="widget_id_label">Widget ID</string>
+
+    <!-- Heading for the updated panel. -->
+    <string name="widget_update_label">Last updated</string>
+
+    <!-- Button label for the update button. -->
+    <string name="widget_button_update">Update now</string>
+
+    <!-- Format string for the date & count text view -->
+    <string name="date_count_format">%1$d @%2$s</string>
+
+    <string name="empty_view_text">Ingredients are empty!</string>
+
+    <string name="menu_main">Add to Widget</string>
+
+</resources>

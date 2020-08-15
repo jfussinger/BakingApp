@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_stepdetails"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.android.bakingapp.activity.StepsDetailsActivity">
+
+    <RelativeLayout
+        android:id="@+id/flContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/previousStep"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:gravity="bottom"
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:textColor="@color/colorPrimary"
+                android:maxLines="3"
+                android:text="@string/previousStep"
+                android:textSize="18sp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/nextStep"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:gravity="bottom"
+                android:paddingBottom="16dp"
+                android:paddingRight="16dp"
+                android:textColor="@color/colorPrimary"
+                android:maxLines="3"
+                android:text="@string/nextStep"
+                android:textSize="18sp"
+                android:textStyle="italic"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
